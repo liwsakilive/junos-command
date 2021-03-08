@@ -31,6 +31,7 @@ run request system logout terminal pts/1
 ```
 ## Monitor
 ```
+monitor interface traffic matching
 monitor interface ge-0/0/0
 run monitor interface ge-0/0/0
 ```
