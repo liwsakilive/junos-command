@@ -125,6 +125,7 @@ request system reboot
 
 ```
 ## Tools
+```
 1. saltstack
 2. Netconf <— connectivity template use grpc over ssh only 
 3. Openconfig <— configuration and delete 
@@ -132,7 +133,7 @@ request system reboot
 	3.2 streaming telemetry
   3.3 yang <— data models
 	3.4 common data models
-
+```
 ### LABS
 ```
 https://jlabs.juniper.net/vlabs/portal/index.page
