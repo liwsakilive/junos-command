@@ -100,7 +100,21 @@ set interfaces ge-0/0/3 unit 0 family ethernet-switching vlan members employee-v
 ```
 set firewall
 ```
-## Authe
+## Authentication
+```
+set system root-authentication ssh-rsa key
+```
+## Troubleshooting
+```
+ping 10.10.1.2 interval 0.1 size 1250 source 192.168.1.1
+traceroute monitor 8.8.8.8
+```
+### System
+```
+request system halt
+request system poweroff
+request system reboot
+```
 
 ## Log
 ```
