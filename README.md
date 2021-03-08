@@ -60,8 +60,8 @@ show | compare rollback 2
 ## Commit
 ```
 commit check
-mike@juniper#commit confiremd 
-mike@juniper#commit 
+mike@juniper# commit confiremd 
+mike@juniper# commit 
 ```
 ## Deactivate
 ```
