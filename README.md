@@ -97,7 +97,7 @@ set interfaces ge-0/0/3 unit 0 family ethernet-switching vlan members employee-v
 ```
 ## Firewall
 ```
-
+set firewall
 ```
 ## Authe
 
