@@ -23,11 +23,19 @@ Show | compare rollback 1
 show | compare rollback 2
 show configuration | display set | match ge-0/0/0
 show configuration | display omit
+show group mygroup
 run show interface
 run show system users
 configure exclusive
 run request system logout terminal pts/1
 ```
+## Monitor
+```
+monitor interface ge-0/0/0
+run monitor interface ge-0/0/0
+```
+
+
 ## Configuration Mode
 ```
 configure
@@ -42,6 +50,7 @@ exit
 run show bgp sumary
 configure private <— config private
 configure exclusive <—- none access
+set system syslog file messages any notice
 ```
 
 ## Delete
@@ -90,6 +99,8 @@ set interfaces ge-0/0/3 unit 0 family ethernet-switching vlan members employee-v
 ```
 
 ```
+## Authe
+
 ## Log
 ```
 
